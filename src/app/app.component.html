@@ -1,0 +1,21 @@
+<div class="container">
+  <p class="title">
+    Fibonacci number
+  </p>
+</div>
+<div class="input-box">
+  <p class="txt">Podaj ile wyrazów ciągu Fibonacciego chcesz wypisać:</p>
+  <form>
+    <input type="text" class="txt" name="item" [(ngModel)]="n">
+    <input type="submit" class="btn" value="START" (click)="start()">
+  </form>
+</div>
+<div class="col" [@numbers]="array.length">
+  <p class="item-container" *ngFor="let a of array">
+    {{a}}
+  </p>
+</div>
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,52 @@
+
+.title{
+    font-family: 'Tangerine', serif;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    transition-duration: 2s;
+}
+
+.input-box{
+    background-color: rgba(245,127,23, 0.7);
+    border-radius: 25px;
+    width: 70%;
+    display: inline-block;
+    height: 110px;
+}
+  
+  
+.col{
+    padding: .4em 1.3em;
+}
+  
+input.btn{
+    border: 0;
+    display: inline-block;
+    padding: 0.5em 3em;
+    background: #ffd95a;
+    color: #000;
+    cursor: pointer;
+    margin-left: 5px;
+    text-align: center;
+}
+  
+.item-container{
+    background: rgba(255,236,179,0.7);
+    padding: .5em;
+    color: #000;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+  
+.txt{
+    font-size: 20px;
+}
+
+.form-control{
+    width: 20%;
+    display: inline-block;
+}
+
+  
